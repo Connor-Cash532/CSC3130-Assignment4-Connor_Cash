@@ -1,0 +1,13 @@
+Stack<Integer> s = new Stack<>();
+s.push(8)
+s = [8]
+s.push(2)
+s = [8, 2]
+s.pop
+s = [8]
+s.push(s.pop()*2) //s.pop() == 8 so s.push(16)
+s = [16]
+s.push(10)
+s = [16, 10]
+s.push(pop()/2) //s.pop() == 10 so s.push(5)
+s = [16, 5]

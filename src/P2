@@ -1,0 +1,13 @@
+Queue<Integer> q = new Queue<>();
+q.push(4)
+q = [4]
+q.push(q.pop()+4) //q.pop() == 4 so q.push(8)
+q = [8]
+q.push(8)
+q = [8, 8]
+q.push(q.pop()/2) //q.pop() == 8 so q.push(4)
+q = [8, 4]
+q.pop()
+q = [4]
+q.pop()
+q = []
